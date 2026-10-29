@@ -3,104 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>معلومات التواصل في حالات الطوارئ</title>
+<meta name="theme-color" content="#fff0f6">
+<title>بطاقة الطوارئ 🎀</title>
 
 <style>
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               "Noto Sans Arabic", Tahoma, Arial, sans-serif;
-  background: linear-gradient(145deg, #f7f3ec, #e9e2d5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 22px;
-  color: #272522;
+    margin: 0;
+    min-height: 100vh;
+    padding: 24px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Noto Sans Arabic", Tahoma, Arial, sans-serif;
+    background: linear-gradient(145deg, #fff7fb, #ffe5f0, #fff0f6);
+    color: #654254;
 }
 
 .card {
-  width: 100%;
-  max-width: 430px;
-  background: white;
-  border-radius: 28px;
-  padding: 30px 22px 24px;
-  box-shadow: 0 16px 45px rgba(0,0,0,.12);
-  text-align: center;
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.96);
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 28px 22px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(208, 111, 153, 0.16);
+}
+
+.decor {
+    font-size: 27px;
+    letter-spacing: 7px;
+    margin-bottom: 12px;
 }
 
 .icon {
-  width: 76px;
-  height: 76px;
-  margin: 0 auto 16px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f2eadb;
-  font-size: 38px;
+    width: 94px;
+    height: 94px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 28px;
+    background: #fff0f6;
+    font-size: 49px;
+}
+
+.badge {
+    display: inline-block;
+    background: #ffe6f0;
+    color: #bd5c88;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 14px;
 }
 
 h1 {
-  font-size: 25px;
-  margin: 0 0 10px;
-  font-weight: 800;
+    font-size: 25px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+    color: #bd5c88;
 }
 
 .intro {
-  font-size: 16px;
-  line-height: 1.8;
-  color: #666;
-  margin: 0 auto 25px;
-  max-width: 350px;
+    font-size: 15px;
+    line-height: 2;
+    color: #806779;
+    margin: 0 0 22px;
 }
 
 .contact {
-  border: 1px solid #eee5d8;
-  border-radius: 20px;
-  padding: 18px 16px;
-  margin-top: 13px;
-  text-align: right;
-  background: #fffdfa;
+    background: #fff5f9;
+    border: 1px solid #f8d4e4;
+    border-radius: 23px;
+    padding: 19px 14px;
+    margin-bottom: 18px;
 }
 
 .label {
-  font-weight: 700;
-  font-size: 17px;
-  margin-bottom: 12px;
+    font-size: 14px;
+    color: #a35c7c;
+    margin-bottom: 10px;
+}
+
+.number {
+    direction: ltr;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    color: #a94475;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
 }
 
 .call {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 9px;
-  width: 100%;
-  padding: 14px 16px;
-  border-radius: 14px;
-  background: #242424;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 700;
+    display: block;
+    text-decoration: none;
+    background: linear-gradient(135deg, #f3a2c4, #e77eaa);
+    color: white;
+    padding: 16px 12px;
+    border-radius: 17px;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(213, 107, 155, 0.22);
+}
+
+.call:active {
+    transform: scale(0.98);
 }
 
 .note {
-  font-size: 13px;
-  color: #888;
-  line-height: 1.7;
-  margin: 22px 8px 0;
+    font-size: 12px;
+    line-height: 2;
+    color: #967d8d;
+    margin: 18px 0 0;
 }
 
-.nfc {
-  font-size: 12px;
-  color: #aaa;
-  margin-top: 18px;
+.footer {
+    font-size: 12px;
+    color: #c17c9d;
+    margin-top: 20px;
 }
+
 </style>
 </head>
 
@@ -108,32 +138,41 @@ h1 {
 
 <main class="card">
 
-  <div class="icon">🛡️</div>
+    <div class="decor">🌸 🦋 🎀</div>
 
-  <h1>معلومات التواصل في حالات الطوارئ</h1>
+    <div class="icon">🎒</div>
 
-  <p class="intro">
-    هذه الميدالية مخصصة للمساعدة في التواصل مع اهل الطفل عند الحاجة.
-  </p>
+    <div class="badge">💗 بطاقة تواصل للطوارئ 💗</div>
 
-  <section class="contact">
+    <h1>معلومات التواصل<br>في حالات الطوارئ</h1>
 
-    <div class="label">👨 ولي الأمر</div>
+    <p class="intro">
+        إذا احتجتِ إلى المساعدة، يرجى التواصل مع ولي الأمر
+        عبر الرقم الموضح أدناه. 🌷
+    </p>
 
-    <a class="call" href="tel:+9647741814139">
-      📞 الاتصال بولي الأمر
-    </a>
+    <section class="contact">
 
-  </section>
+        <div class="label">👩🏻‍🎓 ولي الأمر</div>
 
-  <p class="note">
-    يرجى استخدام معلومات التواصل هذه عند العثور على الطفل
-    أو في حال حدوث امر طارئ يستدعي التواصل مع أهله.
-  </p>
+        <span class="number">07811404376</span>
 
-  <div class="nfc">
-    NFC • صفحة التواصل
-  </div>
+        <a class="call" href="tel:+9647811404376">
+            📞 اتصال بولي الأمر
+        </a>
+
+    </section>
+
+    <p class="note">
+        💕 يرجى استخدام هذه المعلومات لمساعدة الطالبة
+        والتواصل مع ولي أمرها عند الحاجة.
+    </p>
+
+    <div class="decor">🌷 ✨ 🌷</div>
+
+    <div class="footer">
+        صُممت للمساعدة وقت الحاجة 🩷
+    </div>
 
 </main>
 
